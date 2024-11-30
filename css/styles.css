@@ -28,6 +28,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 h3, 
@@ -120,6 +121,7 @@ font-style: normal;
 }
 
 .hero-btn {
+    font-family: inherit;
             background-color: #4d5ae5;
             color: #fff;
             font-weight: 500;
