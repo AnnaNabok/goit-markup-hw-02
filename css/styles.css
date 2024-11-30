@@ -127,8 +127,9 @@ font-style: normal;
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
-        /* text-align: center; */
+        text-align: center;
         color: #fff;
+        letter-spacing: 0.02em;
 }
 
 .hero-btn {
