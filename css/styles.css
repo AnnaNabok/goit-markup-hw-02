@@ -44,7 +44,10 @@ button {
     color: #2e2f42;
 }
 
-h3 {
+h3, 
+team-item-title, 
+features-item-title,
+portfolio-item-title {
 font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -72,14 +75,11 @@ font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .header-logo {
     color: #2e2f42;
-}
-
-.logo-accent {
-        color: #4d5ae5;
 }
 
 .nav-list {
@@ -101,7 +101,7 @@ font-weight: 500;
 }
 
 .contacts {
-  
+font-style: normal;
 }
 
 .contacts-list {}
@@ -109,7 +109,6 @@ font-weight: 500;
 .contacts-item {}
 
 .contacts-link {
- font-style: normal;
     color: #434455;
 }
 
@@ -127,20 +126,27 @@ font-weight: 500;
 .hero-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
+        line-height: 1.07;
+        /* text-align: center; */
         color: #fff;
 }
 
 .hero-btn {
-    border-radius: 4px;
+    /* border-radius: 4px;
         padding: 16px 32px;
         width: 169px;
         height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #4d5ae5;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
+            background-color: #4d5ae5;
+            font-weight: 500;
+            line-height: 1.5;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
 /* #endregion HERO */
 
 /* #region ========FEATURES======== */
@@ -153,15 +159,30 @@ font-weight: 500;
 
 /* #region ========TEAM======== */
 .team {
-    background-color: #434455;
+    background-color: #F4F4FD;
 }
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team h3 {
+    text-transform: capitalize;
+}
 /* #endregion TEAM */
 
 /* #region =====PORTFOLIO======*/
 .portfolio {}
+
+.portfolio-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
 
 .portfolio-list {}
 
