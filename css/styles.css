@@ -114,7 +114,7 @@ font-weight: 500;
 }
 
 .contacts-link:hover,
-.contacts-link: focus {
+.contacts-link:focus {
     color: #404bbf;
 }
 /* #endregion HEADER */
